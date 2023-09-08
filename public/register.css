@@ -1,0 +1,86 @@
+@import url("https://fonts.google.com/specimen/Oswald");
+
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.container1{
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding: 45px;
+    width: 375px;
+    max-width: 95%;
+    box-shadow: 5px;
+} 
+.box h1 {
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.box form div{
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    border-radius: 250px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.box form div{
+    font-size: 15px;
+    margin: 20px;
+    color: black;
+}
+.box form div:hover{
+    color: gainsboro;
+}
+.box form div input{
+    background-color:gray;
+    color: white;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    min-width: 0;
+    flex: 1;
+}
+.box form div input::placeholder{
+    opacity: 1;
+    color: white;
+    font-size: 12px;
+
+}
+.box form div input[type="text"]{
+    letter-spacing: 1px;
+    
+    cursor: pointer;
+}
+.box form button[type="submit"]{
+    font-size: 12px;
+    font-weight: 600px;
+    border:none;
+    width:100%;
+    padding: 15px;
+    border-radius:250px;
+    color:white;
+    background-color:gray;
+}
+.box form button[type="submit"]:hover{
+    background-color: aliceblue;
+    color: gray;
+}
+.box span{
+    margin-top:  25px;
+    display: block;
+    text-align: center;
+}
